@@ -1,0 +1,4 @@
+# python -m pytest --junitxml="./TEST_RESULT.xml" --html="./sample_testresult.html" --self-contained-html --cov-report html --cov-branch --cov=src tests/temp_coverage/
+# pytest -v ./exaone_universe --junitxml="./test_result_exaoneuniverse/TEST_RESULT.xml" --html="./test_result_exaoneuniverse/testresult.html" --self-contained-html --exaone_url=${target_url} || true
+
+python -m pytest -v ./tests --junitxml="./TEST_RESULT.xml" --html="./test_result.html" --self-contained-html --cov-report html --cov-branch --cov=src ./temp_coverage

@@ -1,0 +1,3 @@
+#-*- coding: utf-8 -*-
+PRICE_AMERICANO = 4000
+PRICE_CAFELATTE = 5000
